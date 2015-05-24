@@ -1,8 +1,8 @@
-excerpt_separator: ""
+excerpt_separator: "\n\n"
 pygments: true
 markdown: kramdown
 url: http://vorons.github.io
-title: Заметки Ворона
+title: Г‡Г Г¬ГҐГІГЄГЁ Г‚Г®Г°Г®Г­Г 
 tagline: A log of everyday life
 description: My awesome new site
 paginate: 5

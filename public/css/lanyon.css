@@ -494,12 +494,12 @@ a.pagination-item:hover {
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #6797A1;
+  background-color: #6a9fb5;
 }
 .theme-base-0d .container a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
-  color: #6797A1;
+  color: #6a9fb5;
 }
 
 /* Magenta */

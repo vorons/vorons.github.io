@@ -73,7 +73,8 @@ a {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #d28445;
 }
 
 /* Headings */

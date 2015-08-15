@@ -525,9 +525,8 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
-.hc .hc_footer_logo .hc_fotter_link {
-  display: none!important;
-}
-.hc .hc_reply_button {
-  background: #d28445!important;
+.disqus-comment-count {
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    color: #9a9a9a;
 }

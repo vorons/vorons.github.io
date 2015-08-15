@@ -525,3 +525,6 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+.hc .hc_footer_logo .hc_fotter_link {
+  display: none!imortant;
+}

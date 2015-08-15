@@ -13,7 +13,7 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <span class="post-date disqus-comment-count" data-disqus-url="{{ post.url }}">Комментарии</span>
     {{ post.excerpt }}
     <p><a href="{{post.url}}">Читать »</a></p>
   </div>

@@ -3,6 +3,6 @@ pygments: true
 markdown: kramdown
 url: http://vorons.github.io
 title: Заметки Ворона
-tagline: A log of everyday life
-description: My awesome new site
+tagline: Все что мне интересно
+description: Жизнь с IT
 paginate: 5

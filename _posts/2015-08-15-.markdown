@@ -1,6 +1,6 @@
 ---
 published: true
-title: в" или "на
+title: в или на
 layout: post
 tags: [мысли]
 ---

@@ -27,7 +27,7 @@ categories: [Гаджеты]
 
 Вот и все. Единственный момент при обновлении - сначала устанавливается билд номер 10166, а после уже 10512. Ибо Microsoft официально сообщила что прямое обновление с Windows Phone 8.1 на Windows 10 mobile пока невозможно. Но обещают исправить сей недочет к официальному релизу ;)
 
-<iframe src="https://onedrive.live.com/embed?cid=BBEF5D65E7FA6C94&resid=BBEF5D65E7FA6C94%2130809&authkey=AOD0P5DypPhLnQ0" width="320" height="187" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://onedrive.live.com/embed?cid=BBEF5D65E7FA6C94&resid=BBEF5D65E7FA6C94%2130809&authkey=AOD0P5DypPhLnQ0" width="760"  frameborder="0" scrolling="no"></iframe>
 
 На все про все, у меня ушло примерно 4 часа. Были даже моменты когда я подумал что телефон просто завис и не может обновится, но через некоторое время проценты "побежали" и в конце концов "десятка" благополучно установилась, радуя меня разбросанными как попало плитками :)
 

@@ -528,3 +528,6 @@ a.pagination-item:hover {
 .hc .hc_footer_logo .hc_fotter_link {
   display: none!important;
 }
+.hc .hc_reply_button {
+  background: #d28445!important;
+}

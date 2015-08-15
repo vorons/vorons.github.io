@@ -28,7 +28,7 @@ tags: [гаджеты]
 
 Вот и все. Единственный момент при обновлении - сначала устанавливается билд номер 10166, а после уже 10512. Ибо Microsoft официально сообщила что прямое обновление с Windows Phone 8.1 на Windows 10 mobile пока невозможно. Но обещают исправить сей недочет к официальному релизу ;)
 
-![Windows 10 mobile build 10512](https://leto32h.storage.yandex.net/rdisk/70bf714ef4833ea179bf822670b281b81d441510b74cbdb2615984e13e5f7f44/inf/NJX3e_at1DptJHOQHkFlqWsTISDnUaRZ1dFHI2tEhsvcuhItM6FwD--wYfXfHOw7LmewP2OJBTXft-0ORnzlhA==?uid=0&filename=w10m-10512.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&rtoken=ceea9ab12688224dfce56f61476ed434&force_default=no&ycrid=na-38742816618b0c47efe3fd248ffc3aa5-downloader6g)
+![Windows 10 mobile build 10512](https://leto32h.storage.yandex.net/rdisk/70bf714ef4833ea179bf822670b281b81d441510b74cbdb2615984e13e5f7f44/inf/NJX3e_at1DptJHOQHkFlqWsTISDnUaRZ1dFHI2tEhsvcuhItM6FwD--wYfXfHOw7LmewP2OJBTXft-0ORnzlhA==?uid=0&filename=w10m-10512.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&rtoken=ceea9ab12688224dfce56f61476ed434&force_default=no&ycrid=na-38742816618b0c47efe3fd248ffc3aa5-downloader6g){:width="720px"}
 
 На все про все, у меня ушло примерно 4 часа. Были даже моменты когда я подумал что телефон просто завис и не может обновится, но через некоторое время проценты "побежали" и в конце концов "десятка" благополучно установилась, радуя меня разбросанными как попало плитками :)
 

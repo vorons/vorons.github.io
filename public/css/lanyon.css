@@ -531,5 +531,5 @@ a.pagination-item:hover {
     color: #9a9a9a;
 }
 .post-actions .btn {
-  background: #d28445;
+  background: #d28445!important;
 }

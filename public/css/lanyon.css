@@ -154,6 +154,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 @media (min-width: 30rem) {
   .sidebar {

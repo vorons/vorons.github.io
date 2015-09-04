@@ -118,6 +118,7 @@ ul, ol, dl, li {
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 300;
+  list-style-type: circle;
 }
 
 dt {

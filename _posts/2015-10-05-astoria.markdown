@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Установка Astoria на не поддерживаемые устройства
 layout: post
 ---

@@ -3,8 +3,6 @@ published: true
 title: Установка Astoria на не поддерживаемые устройства
 layout: post
 ---
-[![](http://wp-seven.ru/wp-content/uploads/2015/10/microsoft_1.jpg)](http://wp-seven.ru/wp-content/uploads/2015/10/microsoft_1.jpg)
-
 Благодаря ребятам с форума XDA, появился способ установки Project Astoria на не поддерживаемые смартфоны Lumia (в моем случае Lumia 640 DS), и дальнейшая установка android приложений. Итак начнем, для проведения операции нам понадобится следующее:
 
 1.  Смартфон Lumia с установленной Windows 10 mobile 10536

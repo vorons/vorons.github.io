@@ -5,13 +5,13 @@ layout: post
 ---
 Спустя почти пять месяцев, создатели операционной системы Elementary OS, анонсировали новую версию под номером 0.3.1! По словам разработчиков этот релиз имеет более 1300 исправлений и улучшений, среди которых:
 
+<!--more-->
+
 * Закрыто около 200 репортов приносящих новые функции
 * Множество исправлений ошибок
 * Улучшена поддержка различного оборудования
 * Визуальные изменения
 * Улучшена локализация
-
-<!--more-->
 
 ![Elementary OS Freya 0.3.1](https://leto45h.storage.yandex.net/rdisk/deb3c2c88efe3d89281198bea06b2586135d22e71f224d6c86f31f1c44758bcd/inf/9SJ-PVATomT8KMFxpWgVQnGQ_ZmrbeCsAFv0jIoXhJo69NpGEMPdClM0at10B5hJ0FW4DC5RDGPGIcjbO5H0KQ==?uid=0&filename=elementary-os-freya-0-3-1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&rtoken=cd6415057376f5df692d7ea90e255092&force_default=no&ycrid=na-e46e2f06e07dfca533c36ee12ac9f47f-downloader7g)
 

@@ -7,7 +7,7 @@ layout: post
 
 1.  Смартфон Lumia с установленной Windows 10 mobile 10536
 2.  USB кабель для подключения к ПК
-3.  Установленные ПК WDK,WPAK,WPDK (скачать можно [здесь](https://yadi.sk/d/SaVmXicHjVjEE))
+3.  Установленные на ПК WDK,WPAK,WPDK (скачать можно [здесь](https://yadi.sk/d/SaVmXicHjVjEE))
 4.  CAB архивы содержащие Astoria (скачать можно [здесь](https://yadi.sk/d/0yxpzyLIjVj9q))
 
 1\. Создайте папку "cabs" на диске "C:\", сюда мы будем кидать cab архивы в определенной последовательности.

@@ -5,6 +5,8 @@ layout: post
 ---
 Благодаря ребятам с форума XDA, появился способ установки Project Astoria на не поддерживаемые смартфоны Lumia (в моем случае Lumia 640 DS), и дальнейшая установка android приложений. Итак начнем, для проведения операции нам понадобится следующее:
 
+<!--more-->
+
 1.  Смартфон Lumia с установленной Windows 10 mobile 10536
 2.  USB кабель для подключения к ПК
 3.  Установленные на ПК WDK,WPAK,WPDK (скачать можно [здесь](https://yadi.sk/d/SaVmXicHjVjEE))
@@ -12,13 +14,13 @@ layout: post
 
 1\. Создайте папку "cabs" на диске "C:\", сюда мы будем кидать cab архивы в определенной последовательности.
 
-1.  <pre>microsoft.ms_projecta.mainos.spkg_9dec9dcfe0f22750e3737e9a484e7a60e193303c.cab</pre>
+1. <pre>microsoft.ms_projecta.mainos.spkg_9dec9dcfe0f22750e3737e9a484e7a60e193303c.cab</pre>
 
-2.  <pre>microsoft.ms_projecta.mainos.cbsu_c36c1e67bd04b694a01b65efeb70213ff439be76.cab</pre>
+2. <pre>microsoft.ms_projecta.mainos.cbsu_c36c1e67bd04b694a01b65efeb70213ff439be76.cab</pre>
 
-3.  <pre>microsoft.ms_projecta.mainos.cbsu_7ec3fb51b79d57de88e6adaa0e27800106ecedd8.cab</pre>
+3. <pre>microsoft.ms_projecta.mainos.cbsu_7ec3fb51b79d57de88e6adaa0e27800106ecedd8.cab</pre>
 
-4.  <pre>microsoft.ms_projecta.mainos.cbsu_f0ea237eea0f74372a7eb6745585a06a4ee3feb9.cab</pre>
+4. <pre>microsoft.ms_projecta.mainos.cbsu_f0ea237eea0f74372a7eb6745585a06a4ee3feb9.cab</pre>
 
 Запомните! Только в такой последовательности и ни как иначе.
 

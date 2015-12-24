@@ -16,8 +16,19 @@
 <ul class="menu">
     <li class="menu-item"><a href="/archive.html">Архив</a></li>
     <li class="menu-item"><a href="/tag.html">Теги</a></li>
-    <li class="menu-item"><a href="/atom.xml">РСС</a></li>
+    <li class="menu-item"><a href="/atom.xml">RSS</a></li>
 </ul>
+<script type="text/javascript">
+    var timeSinceLang = {
+        year: 'лет назад',
+        month: 'месяцев назад',
+        day: 'дней назад',
+        hour: 'часов назад',
+        minute: 'минут назад',
+        second: 'секунд назад'
+    };
+</script>
+
 
             <article class="main article">
                 <h1 class="title">Установка Astoria на не поддерживаемые устройства</h1>
@@ -86,7 +97,7 @@
 <blockquote>
 <p><strong>Примечание:</strong></p>
 
-<p>Если после команды &ldquo;<em>iutool -v -p C:\cabs&rdquo;</em> в течение двух-трех минут ничего не происходит, откройте в телефоне &ldquo;<em>Настройки -&gt; Обновление и безопасность -&gt; Обновление для телефона</em>&rdquo;, должна быть надпись, что то вроде &ldquo;<em>Подготовка к установке обновления</em>&rdquo;, аппарат перезагрузится и начнется обновление. Если ничего подобного нет и телефон еще не перезагрузился, выключаем и включаем телефон, повторяем команду &ldquo;<em>iutool -v -p C:\cabs&rdquo;, ждем две-три минты, переходим в _&rdquo;_Настройки -&gt; Обновление и безопасность -&gt; Обновление для телефона</em>&rdquo;.</p>
+<p>Если после команды &ldquo;<em>iutool -v -p C:\cabs&rdquo;</em> в течение двух-трех минут ничего не происходит, откройте в телефоне &ldquo;<em>Настройки -&gt; Обновление и безопасность -&gt; Обновление для телефона</em>&rdquo;, должна быть надпись, что то вроде &ldquo;<em>Подготовка к установке обновления</em>&rdquo;, аппарат перезагрузится и начнется обновление. Если ничего подобного нет и телефон еще не перезагрузился, выключаем и включаем телефон, повторяем команду &ldquo;_iutool -v -p C:\cabs&rdquo;, ждем две-три минты, переходим в _&rdquo;<em>Настройки -&gt; Обновление и безопасность -&gt; Обновление для телефона</em>&rdquo;.</p>
 </blockquote>
 </article>
                 <section class="author">
@@ -99,11 +110,12 @@
                     
                     <section class="nav next">
                         <div class="head">Следующая запись</div>
-                        <a class="link" href="/post/2015/09/04/elementary-os-freya-0-3-1.html">Релиз Elementary OS Freya 0.3.1</a>
+                        <a class="link" href="/elementary-os-freya-0-3-1.html">Релиз Elementary OS Freya 0.3.1</a>
                     </section>
                     
                 </section>
-                <section id="disqus_thread"></section>
+                
+
             </article>
         </article>
         <footer class="footer">
@@ -118,11 +130,4 @@
 
         <script src="/bundle/index.js"></script>
     </body>
-    <script type="text/javascript">
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//voronpw.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
 </html>

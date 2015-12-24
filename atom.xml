@@ -1,28 +1,50 @@
----
-layout: nil
----
-
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
-
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
-
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Заметки Ворона</title>
+  <id>http://voron.pw/</id>
+  <updated>2015-12-24T21:24:10+08:00</updated>
+  <subtitle>Пишу очень редко</subtitle>
+  <link href="http://voron.pw/"></link>
+  <author>
+    <name>Заметки Ворона</name>
+  </author>
+  <entry>
+    <title>Установка Astoria на не поддерживаемые устройства</title>
+    <updated>1970-01-01T08:00:00+08:00</updated>
+    <id>tag:,1970-01-01:</id>
+    <content type="html">&#xD;&#xA;&#xD;&#xA;Благодаря ребятам с форума XDA, появился способ установки Project Astoria на не поддерживаемые смартфоны Lumia (в моем случае Lumia 640 DS), и дальнейшая установка android приложений. Итак начнем, для проведения операции нам понадобится следующее:&#xD;&#xA;&#xD;&#xA;</content>
+    <link href="http:\voron.pw\post\2015\10\05\astoria.html"></link>
+    <author>
+      <name>Сергей Ворон</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Релиз Elementary OS Freya 0.3.1</title>
+    <updated>1970-01-01T08:00:00+08:00</updated>
+    <id>tag:,1970-01-01:</id>
+    <content type="html">&#xD;&#xA;&#xD;&#xA;Спустя почти пять месяцев, создатели операционной системы Elementary OS, анонсировали новую версию под номером 0.3.1! По словам разработчиков этот релиз имеет более 1300 исправлений и улучшений, среди которых:&#xD;&#xA;&#xD;&#xA;</content>
+    <link href="http:\voron.pw\post\2015\09\04\elementary-os-freya-0-3-1.html"></link>
+    <author>
+      <name>Сергей Ворон</name>
+    </author>
+  </entry>
+  <entry>
+    <title>на блоге?</title>
+    <updated>1970-01-01T08:00:00+08:00</updated>
+    <id>tag:,1970-01-01:</id>
+    <content type="html">&#xD;&#xA;&#xD;&#xA;Я читаю множество разных блогов, в основном технические, но иногда и какие то личные мысли авторов. И многие пишут вроде хорошо, интересно, доходчиво, но... есть такой момент который меня раздражает во многих блогерах, это неправильное использование предлогов &#34;в&#34; и &#34;на&#34; относительно своего блога.&#xD;&#xA;&#xD;&#xA;</content>
+    <link href="http:\voron.pw\post\2015\08\15\na-bloge.html"></link>
+    <author>
+      <name>Сергей Ворон</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Установка и впечатления от Windows 10 mobile</title>
+    <updated>1970-01-01T08:00:00+08:00</updated>
+    <id>tag:,1970-01-01:</id>
+    <content type="html">&#xD;&#xA;&#xD;&#xA;Так как я, являюсь счастливым обладателем свежей модели &#34;винфона&#34;, Lumia 640 DS, то загорелся желанием установить Windows 10 mobile на свой аппарат. На эту версию ОС можно обновится по программе Insider Preview (сокращенно - IP), установив специальное приложение из магазина. &#xD;&#xA;&#xD;&#xA;</content>
+    <link href="http:\voron.pw\post\2015\08\15\windows-10-mobile.html"></link>
+    <author>
+      <name>Сергей Ворон</name>
+    </author>
+  </entry>
 </feed>

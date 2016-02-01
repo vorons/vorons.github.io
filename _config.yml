@@ -1,5 +1,6 @@
 excerpt_separator: <!--more-->
 pygments: true
+permalink: :title/
 markdown: kramdown
 url: http://voron.pw
 title: Заметки Ворона

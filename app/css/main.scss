@@ -1,0 +1,288 @@
+// Reset
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// Defaults
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  .container {
+    position: relative;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+article {
+  color: #444;
+  margin-bottom: 60px;
+  clear: both;
+
+  .meta {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #999999;
+    font-size: 18px;
+
+    .icon-date {
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      background: url('data:image/svg+xml,%3Csvg%20height%3D%2270%22%20viewBox%3D%220%200%2070%2070%22%20width%3D%2270%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M51%2019h-4v-4h-4v4H27v-4h-4v4h-4a4%204%200%200%200-4%204v28a4%204%200%200%200%204%204h32a4%204%200%200%200%204-4V23a4%204%200%200%200-4-4zm0%2032H19V31h32v20zm0-24H19v-4h32v4z%22%2F%3E%3Cpath%20d%3D%22M35%2035h4v4h-4zM43%2035h4v4h-4zM35%2043h4v4h-4zM27%2043h4v4h-4z%22%2F%3E%3C%2Fsvg%3E') no-repeat;
+      background-size: contain;
+      vertical-align: bottom;
+      opacity: 0.2;
+    }
+  }
+
+  .comments {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-height: 100vh;
+  }
+
+  .more {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.1;
+  a {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #3498db;
+    text-decoration: underline;
+  }
+}
+
+ol {
+  list-style: inside;
+}
+
+ul {
+  list-style: circle inside;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 35px;
+  margin: 8px;
+  padding: 0 15px;
+  font-size: 0.8rem;
+  position: relative;
+  opacity: .999;
+  border-radius: 3px;
+  transition: all 0.3s;
+
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  color: #424242;
+
+  &:before,
+  &:after {
+    content: '';
+    border: solid #3498db;
+    position: absolute;
+    z-index: 5;
+    border-radius: 3px;
+    box-sizing: content-box;
+    transition: all 0.3s
+  }
+
+  &:before {
+    width: 0;
+    height: 100%;
+    border-width: 1px 0 1px 0;
+    top: -1px;
+    left: 0;
+    transition-delay: 0.05s;
+  }
+
+  &:after {
+    width: 100%;
+    height: 0;
+    border-width: 0 1px 0 1px;
+    top: 0;
+    left: -1px;
+  }
+
+  &:hover {
+    color: #3498db;
+    text-decoration: none;
+
+    &:before {
+      width: 100%;
+    }
+
+    &:after {
+      height: 100%;
+    }
+  }
+}
+
+.page_number {
+  font-size: 0.8rem;
+  color: #cacaca;
+}
+
+.footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #535353;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+// **********************
+// *    Common Styles   *
+// **********************
+
+del {
+  color: #b60000;
+}
+
+img.center {
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+img.left {
+  float: left;
+  margin-right: 15px;
+}
+
+img.right {
+  float: right;
+  margin-left: 15px;
+}
+
+blockquote,
+.info {
+  margin-left: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-left: 10px solid #5bc0de;
+  background-color: #f4f8fa;
+}
+
+.gist {
+  line-height: normal !important;
+  font-size: 12px !important;
+}
+
+
+// Code
+
+@import 'highlight/github-gist';
+
+code {
+  font-size: 0.8rem;
+  color: #333;
+  background-color: #fbfbfb;
+  border-radius: 4px;
+  padding: 2px 7px;
+  vertical-align: middle;
+  white-space: pre;
+}
+
+pre {
+  word-wrap: normal;
+  overflow-y: scroll;
+
+  code {
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    white-space: pre;
+  }
+}
+
+
+// Other
+
+@import 'search';
+@import 'adaptive';

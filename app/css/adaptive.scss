@@ -1,0 +1,41 @@
+// Tablet
+@media only screen
+and (min-device-width: 479px)
+and (max-device-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+// Phone
+@media only screen
+and (max-device-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  article {
+    margin-bottom: 30px;
+  }
+}
+
+// Footer only
+@media only screen
+and (max-device-width: 768px) {
+  .footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .row {
+      flex-direction: column;
+      .col {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Сергей Ворон">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,cyrillic">
+    <link rel="stylesheet" href="/build/app.css">
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <a class="btn" href="/">voron.pw</a>
+        <a class="btn-search" href="#search">
+            <i class="icon-search"></i>
+        </a>
+    </div>
+</nav>
+
+<div class="search-results js-search">
+    <div class="container">
+        <div class="form">
+            <input type="search" value="">
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="container">
+        {{ content }}
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                &copy; Сергей Ворон {{ site.time | date: '%Y' }}
+            </div>
+
+            <div class="col">
+                <a href="https://twitter.com/voron_s" class="twitter-follow-button" data-show-count="false"
+                   data-lang="ru">Читать @voron_s</a>
+                <script>
+                    !function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + '://platform.twitter.com/widgets.js';
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                    }(document, 'script', 'twitter-wjs');
+                </script>
+            </div>
+
+            <div class="col">
+                <iframe src="http://ghbtns.com/github-btn.html?user=vorons&type=follow&count=true" height="30"
+                        width="168" frameborder="0" scrolling="0" style="width:168px; height: 30px;"
+                        allowTransparency="true"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/build/app.js"></script>
+</body>
+</html>

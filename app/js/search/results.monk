@@ -1,0 +1,10 @@
+<div class="results">
+    {% for i, result of results %}
+        <a class="result {{ selectedResult - 1 == i ? 'active' : '' }}" href={{ result.url }}>
+            <div class="title">{{ result.title }}</div>
+            <div class="content">
+                {{ result.content.slice(0, 150) }}
+            </div>
+        </a>
+    {% endfor %}
+</div>

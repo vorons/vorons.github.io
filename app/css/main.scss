@@ -124,7 +124,7 @@ a {
   transition: color 0.3s;
 
   &:hover {
-    color: #e67e22;
+    color: #d35400;
     text-decoration: underline;
   }
 }
@@ -155,7 +155,7 @@ ul {
   &:before,
   &:after {
     content: '';
-    border: solid #e67e22;
+    border: solid #d35400;
     position: absolute;
     z-index: 5;
     border-radius: 3px;
@@ -181,7 +181,7 @@ ul {
   }
 
   &:hover {
-    color: #e67e22;
+    color: #d35400;
     text-decoration: none;
 
     &:before {

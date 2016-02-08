@@ -8,3 +8,7 @@ tagline: Все что мне интересно
 description: Жизнь с IT
 paginate: 5
 
+gems:
+- jemoji
+- jekyll-sitemap
+- jekyll-feed
